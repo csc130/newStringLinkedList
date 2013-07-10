@@ -23,12 +23,6 @@ public class LinkedString implements StringInterface {
 		input = scan.nextLine();
 		this.first = new LinkedString(input).getFirst();
 	}
-	
-
-	public LinkedString(char element) {
-		this.first = new Node(element);
-	}
-	
 
 	public LinkedString(File file) {
 		
@@ -55,13 +49,13 @@ public class LinkedString implements StringInterface {
 	}
 
 	@Override
-	public void insert(char elment, int index) {
+	public void insert(String elment, int index) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void remove(char element, int index) {
+	public void remove(String element, int index) {
 		// TODO Auto-generated method stub
 		
 	}

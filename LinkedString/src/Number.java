@@ -22,4 +22,8 @@ public class Number {
 		return result;
 	}
 	
+	public String toString() {
+		return(this.number.toString());
+	}
+	
 }
